@@ -52,11 +52,11 @@ pip install -r requirements.txt
 
 ### ✅ Prepare Dataset
 
--Place the dataset (garbage_image_dataset.zip) inside the project folder.
+- Place the dataset (garbage_image_dataset.zip) inside the project folder.
 
--Extract it into dataset/TrashType_Image_Dataset/.
+- Extract it into dataset/TrashType_Image_Dataset/.
 
--unzip garbage_image_dataset.zip -d dataset/
+- unzip garbage_image_dataset.zip -d dataset/
 
 ### ✅ Train the Model
 ```
