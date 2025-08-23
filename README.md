@@ -52,11 +52,11 @@ pip install -r requirements.txt
 
 ### ✅ Prepare Dataset
 
-Place the dataset (garbage_image_dataset.zip) inside the project folder.
+-Place the dataset (garbage_image_dataset.zip) inside the project folder.
 
-Extract it into dataset/TrashType_Image_Dataset/.
+-Extract it into dataset/TrashType_Image_Dataset/.
 
-unzip garbage_image_dataset.zip -d dataset/
+-unzip garbage_image_dataset.zip -d dataset/
 
 ### ✅ Train the Model
 ```
@@ -70,21 +70,21 @@ python realtime_scrap_classifier.py
 
 ### 🔹 4. Challenges Faced
 
-Dataset Imbalance: Some classes had fewer images, requiring augmentation.
+-Dataset Imbalance: Some classes had fewer images, requiring augmentation.
 
-Overfitting: Initially, the model started memorizing training images → solved with dropout & early stopping.
+-Overfitting: Initially, the model started memorizing training images → solved with dropout & early stopping.
 
-Performance vs Accuracy Tradeoff: Chose MobileNetV2 for efficiency in real-time use, even though heavier models could yield slightly higher accuracy.
+-Performance vs Accuracy Tradeoff: Chose MobileNetV2 for efficiency in real-time use, even though heavier models could yield slightly higher accuracy.
 
-Robotic Simulation: Implementing a real robotic arm wasn’t feasible, so a software simulation was created.
+-Robotic Simulation: Implementing a real robotic arm wasn’t feasible, so a software simulation was created.
 
 ### 🔹 5. Results
 
-Model Accuracy: 84% on validation set
+-Model Accuracy: 84% on validation set
 
-Speed: Real-time classification at ~15–20 FPS on CPU
+-Speed: Real-time classification at ~15–20 FPS on CPU
 
-Demo Simulation: Shows how robotic automation can sort waste based on predictions
+-Demo Simulation: Shows how robotic automation can sort waste based on predictions
 
 ### 🔹 6. Demo
 
@@ -92,10 +92,10 @@ Demo Simulation: Shows how robotic automation can sort waste based on prediction
 
 ### 🔹 7. Future Work
 
-Deploy model on Raspberry Pi / Jetson Nano for IoT applications.
+-Deploy model on Raspberry Pi / Jetson Nano for IoT applications.
 
-Integrate with an actual robotic arm for physical waste sorting.
+-Integrate with an actual robotic arm for physical waste sorting.
 
-Improve dataset with more diverse images for higher accuracy.
+-Improve dataset with more diverse images for higher accuracy.
 
 📌 This project highlights how deep learning and robotics can contribute to smart waste management and sustainability.
