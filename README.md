@@ -47,3 +47,11 @@ cd scrap-classifier
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+### ✅ Prepare Dataset  
+Place the dataset (`garbage_image_dataset.zip`) inside the project folder.  
+Extract it into `dataset/TrashType_Image_Dataset/`.  
+
+```bash
+unzip garbage_image_dataset.zip -d dataset/
