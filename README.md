@@ -37,49 +37,13 @@ The goal is to classify different types of scrap (metal, plastic, paper, etc.) a
 
 ---
 
-3. How to Run
+## 🔹 3. How to Run  
 
-Clone the repository:
-
+### ✅ Setup  
+```bash
+# Clone the repository
 git clone https://github.com/your-username/scrap-classifier.git
 cd scrap-classifier
 
-
-Install dependencies:
-
+# Install dependencies
 pip install -r requirements.txt
-
-
-Prepare dataset:
-
-Place your dataset folder (TrashType_Image_Dataset) inside the data/ directory.
-
-Train the model (optional):
-
-python train.py
-
-
-Run real-time classifier:
-
-python app.py
-
-🔹 4. Challenges Faced
-
-Dataset Imbalance – Some classes had fewer images, which impacted accuracy. Used augmentation to address this.
-
-Real-Time Constraints – Ensuring the classifier ran smoothly without heavy GPU requirements. MobileNet helped here.
-
-Robotic Simulation – Designing a realistic robotic arm pick-up simulation using only OpenCV was challenging.
-
-Accuracy Trade-off – Balancing between speed (real-time performance) and accuracy. Final model achieved 84% accuracy.
-
-🔹 5. Demo
-
-🎥 Video Demo: [Demo Link or upload video file]
-Or you can create a quick GIF demo showing:
-
-Image input
-
-Classification result
-
-Simulated robotic pick action
