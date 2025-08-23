@@ -46,7 +46,7 @@ git clone https://github.com/your-username/scrap-classifier.git
 cd scrap-classifier
 
 # Install dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt ```
 
 
 ### ✅ Prepare Dataset  
