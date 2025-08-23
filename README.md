@@ -59,10 +59,14 @@ Extract it into dataset/TrashType_Image_Dataset/.
 unzip garbage_image_dataset.zip -d dataset/
 
 ### ✅ Train the Model
+```
 python train.py
+```
 
 ### ✅ Run Real-Time Classifier with Simulation
+```
 python realtime_scrap_classifier.py
+```
 
 ### 🔹 4. Challenges Faced
 
