@@ -39,14 +39,12 @@ The goal is to classify different types of scrap (metal, plastic, paper, etc.) a
 
 ## 🔹 3. How to Run  
 
-### ✅ Setup  
-```bash
-# Clone the repository
-git clone https://github.com/your-username/scrap-classifier.git
-cd scrap-classifier
+### ✅ Prepare Dataset  
+Place the dataset (`garbage_image_dataset.zip`) inside the project folder.  
+Extract it into `dataset/TrashType_Image_Dataset/`.  
 
-# Install dependencies
-pip install -r requirements.txt
+```bash
+unzip garbage_image_dataset.zip -d dataset/
 
 
 
