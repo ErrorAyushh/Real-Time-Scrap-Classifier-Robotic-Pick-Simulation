@@ -1,4 +1,4 @@
- ##Real-Time Scrap Classifier & Robotic Pick Simulation  
+ ## Real-Time Scrap Classifier & Robotic Pick Simulation  
 
 This project demonstrates a **real-time waste classification system** using **MobileNetV2** for image classification and a **robotic pick simulation** to visualize automated waste sorting.  
 The goal is to classify different types of scrap (metal, plastic, paper, etc.) and simulate how a robotic arm could pick and place items accordingly.  
