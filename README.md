@@ -88,8 +88,7 @@ python realtime_scrap_classifier.py
 
 ### 🔹 6. Demo
 
-🎥 Video Demo / GIF – (Attach a short recording of your real-time classifier & robotic simulation here)
-
+🎥 Video Demo [Watch the 1-2 min demo on YouTube] - https://youtu.be/Xuxg2j_yFFo
 ### 🔹 7. Future Work
 
 - Deploy model on Raspberry Pi / Jetson Nano for IoT applications.
